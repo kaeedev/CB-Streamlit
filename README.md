@@ -16,7 +16,7 @@ El proyecto solo contiene un archivo llamado widgets_avanzados.py que recoge tod
 ## 🚀 Funcionalidades y uso
 
 La página está hosteada por el propio servidor de Streamlit asi que puedes usarla sin tener que instalar nada. Pincha en el siguiente enlace:
-first-project-stm.streamlit.app
+[Mi primer proyecto](first-project-stm.streamlit.app)
 
 - **Navegación**: El proyecto cuenta con una página home básica y una página con datos y plots
 - **Creación de datos**: En la página de "Data", podrás crear un dataframe con los límites y tamaño que se quiera mediante un formulario. Una vez creado podrás descargar en formato csv el dataframe.
@@ -84,7 +84,7 @@ The project contains only one file named widgets_avanzados.py which holds all th
 
 Click in the URL:
 
-first-project-stm.streamlit.app
+[My first project](first-project-stm.streamlit.app)
 
 - Navigation: The project has a basic home page and a page with data and plots.
 - Data Creation: On the "Data" page, you can create a dataframe with customizable limits and size via a form. Once created, you can download the dataframe in CSV format.
