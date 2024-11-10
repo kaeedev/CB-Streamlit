@@ -95,7 +95,7 @@ https://first-project-stm.streamlit.app
 
 1. Clone this repository:
    ```bash
-   https://github.com/kaeedev/First-Proejct-Streamlit.git
+   https://github.com/kaeedev/First-Project-Streamlit.git
 
 2. Create a virtual environment to install the necessary dependencies:
    ```bash
