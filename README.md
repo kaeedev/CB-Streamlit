@@ -1,6 +1,6 @@
 ## ESP:
 
-# 🚢 Titanic Project. Titanic Passenger Data. 🐍
+# 👑 First Project in Streamlit 🐍
 
 Esta es mi primera página web realizada exclusivamente con **Streamlit**, una libreria de **Python**. Primera toma de contacto con la libreria. Manejo de widgets básicos y avanzados, flujo de código, navegación, sesiones, cacheo...
 
@@ -69,39 +69,34 @@ Si tienes alguna duda o quieres utilizar algún recurso de este proyecto, por fa
 
 ## EN:
 
-# 🚢 Titanic Project. Titanic Passenger Data. 🐍
+# 👑 First Project in Streamlit 🐍
 
-A website showcasing Titanic passenger data. It features graphs created with pyplot displaying the number of survivors by age, gender, boarding location, etc. It also has an AI implemented that predicts whether a passenger survived or not based on the given data.
+This is my first web page built exclusively with Streamlit, a Python library. It's my first hands-on experience with the library, covering both basic and advanced widget handling, code flow, navigation, sessions, caching, and more.
 
 ## 🎯 Project Objective
 
-Learn everything that this Python library provides for creating dynamic, fast, and simple web pages. It covers both basic and advanced widget handling, code flow, navigation, sessions, caching, etc.
+To learn everything this Python library has to offer for building dynamic, fast, and simple web pages.
 
 ## 🛠️ Project Structure
 
-The project includes:
-
-A file named streamlit_titanic.py containing the main project code.
-A file named html_titanic_table_description.html that contains a table with all the Titanic passengers' data. This will be injected into Streamlit using markdown.
-A file named titanic_ai_model.py that defines the AI model used to train and predict outcomes.
+The project consists of a single file named widgets_avanzados.py, which contains all the project code.
 
 ## 🚀 Features and Usage
 
-The page is hosted by Streamlit itself, so you can use it without needing to install anything. Click on the link below to access the page:
+The page is hosted by Streamlit itself, so you can use it without needing to install anything. Just click on the following link:
 
 https://first-project-stm.streamlit.app
 
-Navigation: The project is divided into several pages. One page presents a description of the passengers and their data, another handles these data through plots and filters, and the last page features the AI.
-Data Filtering: There is a form to filter data from the main dataframe.
-AI: An AI that predicts if a passenger survived or not based on the data provided.
-Plots: Based on the created or filtered dataframe, you can visualize the values you want, applying specific filters for the plots to display specific data.
-Sessions and Caching: The website uses caching and sessions, so even if you leave and return to the site, the data will be retained.
+Navigation: The project features a basic home page and a data and plots page.
+Data Creation: In the "Data" page, you can create a dataframe with customizable limits and size using a form. Once created, you can download the dataframe in CSV format.
+Metrics: Based on the created dataframe, you can select three metrics: the maximum value, the minimum value, and the average value of the data.
+Plots: From the created dataframe, you can visualize the maximum and minimum values using several types of plots. One is created with matplotlib, and two others use plotly: a 2D plot and a 3D plot.
 
 ## 🛠️ Installation and Running
 
 1. Clone this repository:
    ```bash
-   https://github.com/kaeedev/Titanic-Project---Streamlit.git
+   https://github.com/kaeedev/First-Project-Streamlit.git
 
 2. Create a virtual environment to install the necessary dependencies:
    ```bash
@@ -125,7 +120,7 @@ Sessions and Caching: The website uses caching and sessions, so even if you leav
 5. Run the project: You'll need to run a local server:
    Deberás runear un servidor local
    ```bash
-   streamlit run streamlit_titanic.py
+   streamlit run widgets_avanzados.py
    ```
    
 ## 📝 License
